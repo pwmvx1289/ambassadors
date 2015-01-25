@@ -65,7 +65,6 @@
 }
 
 #back{
-  display: inline-block;
   right:0;
   position:absolute;
   vertical-align: middle;
