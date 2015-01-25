@@ -23,15 +23,28 @@
 </head>
 <body>
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
-<div class="container">
-<div class="navbar-header">
-<a class="navbar-brand" href="index.html">FSA Manager</a>
-</div>
-</div>
-</nav>
-
-<br/><br/><br/>
+<nav class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" id="back" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">FSA Manager</a>
+                </div>
+                
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="yes.html">Become an Ambassador</a></li>
+                        <li><a href="fill.html">Join FSA!</a></li>
+                        <li><a href="guide.html">Beginners' Guide</a></li>                       
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
 
 <div class="container">
 	<div class="row">
@@ -42,4 +55,6 @@
 			Contributing is about more than lending a hand. It's about learning, collaborating and sharing your skills with global community of Mozillans - coders, organizers, activists and more - who help shape the Web every day.
 		</div>
 	</div>
+    <button type="button" class="btn btn-primary btn-lg btn-block" onclick="location.href = 'http://www.whatcanidoformozilla.org/#!/progornoprog/uxdesign;'" style="margin-bottom:20px;">Start Contributing Now!</button>
+    <button type="button" class="btn" onclick="location.href = 'index.html'" style="margin-bottom:20px;">Back</button>
 </div>
